@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebApp Minimal</title>
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+	<link href="Style.css" rel="stylesheet" type="text/css">
+
+  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  </head>
+  <body>
+
+ 
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+       
+        <div class="swiper-slide d-flex flex-column justify-content-between" style="min-height:100vh;">
+          <div class="d-flex flex-column justify-content-center align-items-center flex-grow-1">
+            <ul class="list-unstyled text-center">
+              <li class="h3 mb-3">Mail</li>
+              <li class="h3 mb-3">Notes</li>
+              <li class="h3 mb-3">Browser</li>
+              <li class="h3 mb-3">Calendar</li>
+              <li class="h3 mb-3">Messages</li>
+            </ul>
+          </div>
+          <div class="menu-icons d-flex justify-content-around border-top py-2 bg-light">
+            <img src="images/notion.png" alt="Notion" width="32">
+            <img src="images/calendar.png" alt="Calendar" width="32">
+            <img src="images/home.png" alt="Home" width="32">
+            <img src="images/browser.png" alt="Browser" width="32">
+          </div>
+        </div>
+
+        
+        <div class="swiper-slide d-flex flex-column justify-content-between" style="min-height:100vh;">
+          <div class="p-4 flex-grow-1">
+            <ul class="list-unstyled">
+              <li class="h5 mb-3">Get groceries</li>
+              <li class="h5 mb-3">Plan content calendar</li>
+              <li class="h5 mb-3">Film a new video</li>
+              <li class="h5 mb-3">Pay credit card bill</li>
+              <li class="h5 mb-3 text-muted"><s>Book medical appointment</s></li>
+              <li class="h5 mb-3 text-muted"><s>Hit the gym</s></li>
+            </ul>
+          </div>
+          <div class="menu-icons d-flex justify-content-around border-top py-2 bg-light">
+            <img src="images/notion.png" alt="Notion" width="32">
+            <img src="images/calendar.png" alt="Calendar" width="32">
+            <img src="images/home.png" alt="Home" width="32">
+            <img src="images/browser.png" alt="Browser" width="32">
+          </div>
+        </div>
+
+        
+        <div class="swiper-slide d-flex flex-column justify-content-between" style="min-height:100vh;">
+          <div class="container py-4 flex-grow-1">
+            <div class="row text-center">
+              <div class="col-6 mb-4">
+                <div class="border rounded p-3">
+                  <img src="images/reading.png" alt="Reading" width="40" class="mb-2">
+                  <p>Reading List</p>
+                </div>
+              </div>
+              <div class="col-6 mb-4">
+                <div class="border rounded p-3">
+                  <img src="images/movie.png" alt="Movie" width="40" class="mb-2">
+                  <p>Movie List</p>
+                </div>
+              </div>
+              <div class="col-6 mb-4">
+                <div class="border rounded p-3">
+                  <img src="images/habits.png" alt="Habits" width="40" class="mb-2">
+                  <p>Habits</p>
+                </div>
+              </div>
+              <div class="col-6 mb-4">
+                <div class="border rounded p-3">
+                  <img src="images/journal.png" alt="Journal" width="40" class="mb-2">
+                  <p>Journal</p>
+                </div>
+              </div>
+              <div class="col-6 mb-4">
+                <div class="border rounded p-3">
+                  <img src="images/workout.png" alt="Workout" width="40" class="mb-2">
+                  <p>Workout Tracker</p>
+                </div>
+              </div>
+              <div class="col-6 mb-4">
+                <div class="border rounded p-3">
+                  <img src="images/finance.png" alt="Finance" width="40" class="mb-2">
+                  <p>Finance Tracker</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-icons d-flex justify-content-around border-top py-2 bg-light">
+            <img src="images/notion.png" alt="Notion" width="32">
+            <img src="images/calendar.png" alt="Calendar" width="32">
+            <img src="images/home.png" alt="Home" width="32">
+            <img src="images/browser.png" alt="Browser" width="32">
+          </div>
+        </div>
+
+      </div>
+
+      
+      <div class="swiper-pagination"></div>
+    </div>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/popper.min.js"></script> 
+	<script src="js/bootstrap-4.4.1.js"></script>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+  </body>
+</html>
